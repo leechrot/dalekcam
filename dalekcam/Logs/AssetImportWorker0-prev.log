@@ -15,11 +15,11 @@ C:/Users/leechrot/Downloads/Unity/dalekcam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60572
+61877
 Successfully changed project path to: C:/Users/leechrot/Downloads/Unity/dalekcam
 C:/Users/leechrot/Downloads/Unity/dalekcam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 50.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,489 +35,143 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003103 seconds.
+Registered in 0.006020 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.968 seconds
+- Completed reload, in  3.630 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000997 seconds.
+Registered in 0.004477 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.235 seconds
+- Completed reload, in  1.654 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.9 MB.
-System memory in use after: 56.9 MB.
+System memory in use before: 57.1 MB.
+System memory in use after: 57.2 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 3.398756 ms (FindLiveObjects: 0.656578 ms CreateObjectMapping: 0.088489 ms MarkObjects: 2.524623 ms  DeleteObjects: 0.122222 ms)
+Total: 7.907290 ms (FindLiveObjects: 0.839911 ms CreateObjectMapping: 0.149111 ms MarkObjects: 6.787245 ms  DeleteObjects: 0.125156 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/dalekcam blender.obj
-  artifactKey: Guid(d6d81a146ea00bf4c8d3c75c424382a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dalekcam blender.obj using Guid(d6d81a146ea00bf4c8d3c75c424382a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a7c9e7810cf15988e6a7e95c5df424') in 1.514920 seconds
-  Import took 1.519089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1478.882720 seconds.
-  path: Assets/dalekcam blender.obj
-  artifactKey: Guid(d6d81a146ea00bf4c8d3c75c424382a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dalekcam blender.obj using Guid(d6d81a146ea00bf4c8d3c75c424382a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1ae7d7a18963e9fcad11b8e1da4f15') in 1.107288 seconds
-  Import took 1.319506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.402795 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(a4eca81924fb8a64ca50d37e99bd7f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(a4eca81924fb8a64ca50d37e99bd7f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644ba095243c3943347b5688026c238c') in 0.033890 seconds
-  Import took 0.038237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 134.945330 seconds.
-  path: Assets/dalekcam blender.blend
-  artifactKey: Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dalekcam blender.blend using Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8298a637fd901c8b59a2b3e4e101b6a5') in 1.280321 seconds
-  Import took 1.287949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 276.340474 seconds.
-  path: Assets/dalekcam blender.blend
-  artifactKey: Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dalekcam blender.blend using Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45db1bbd69277f4c8e570377721fb54') in 0.387283 seconds
-  Import took 0.392897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Eye Lens.005.mat
-  artifactKey: Guid(fde36eb55ee7f584eb41c55184cce58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Eye Lens.005.mat using Guid(fde36eb55ee7f584eb41c55184cce58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd465127e11934c9812d049ac141f0ef6') in 0.032737 seconds
-  Import took 0.035774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.640542 seconds.
-  path: Assets/Eye Lens.005.mat
-  artifactKey: Guid(fde36eb55ee7f584eb41c55184cce58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Eye Lens.005.mat using Guid(fde36eb55ee7f584eb41c55184cce58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f53730ce0a9b3ad2038b6c8fb930e9') in 0.048469 seconds
-  Import took 0.053152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 177.263135 seconds.
-  path: Assets/dalekcam blender.blend
-  artifactKey: Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dalekcam blender.blend using Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef4b1b1ac27cadb69e18f8c9b26b239') in 0.327423 seconds
-  Import took 0.332573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.890854 seconds.
-  path: Assets/dalekcam blender.blend
-  artifactKey: Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dalekcam blender.blend using Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36389c915dc8568d71fa95e95adca80') in 0.270088 seconds
-  Import took 0.275373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 192.726806 seconds.
-  path: Assets/dalekcam blender.blend
-  artifactKey: Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dalekcam blender.blend using Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56dcab8182a59a7840aed2bc28d7387') in 0.311626 seconds
-  Import took 0.316029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Glass Light.005.mat
+  path: Assets/Models/Hal/Materials/Glass Light.005.mat
   artifactKey: Guid(cfc3bcc18e9e182428b337d65c11b331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass Light.005.mat using Guid(cfc3bcc18e9e182428b337d65c11b331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964b0e9c968ae68e3ccbddd1cc8e2590') in 0.025784 seconds
-  Import took 0.028901 seconds .
+Start importing Assets/Models/Hal/Materials/Glass Light.005.mat using Guid(cfc3bcc18e9e182428b337d65c11b331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ca5f87adcf2ea3dbf88015a03425fc') in 0.240892 seconds
+  Import took 0.244350 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 385.856654 seconds.
-  path: Assets/dalekcam blender.blend
-  artifactKey: Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dalekcam blender.blend using Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8fe179e0c6bf2afebb249d6bed90fc') in 0.287599 seconds
-  Import took 0.292124 seconds .
+  Time since last request: 182.365837 seconds.
+  path: Assets/Models/Ground.mat
+  artifactKey: Guid(092f7656b6478524c9e8673f566cedae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ground.mat using Guid(092f7656b6478524c9e8673f566cedae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c6fd4b7a2a6ad9d965911f58970a7f') in 0.044607 seconds
+  Import took 0.053244 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Hal ID Tag4.png
-  artifactKey: Guid(c3b49a60dc7d90a4f990244d10e66dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hal ID Tag4.png using Guid(c3b49a60dc7d90a4f990244d10e66dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b27258c2e869aea521a3afb19e0a1b') in 0.238677 seconds
-  Import took 0.242751 seconds .
+  Time since last request: 14.623467 seconds.
+  path: Assets/Models/Ground.mat
+  artifactKey: Guid(092f7656b6478524c9e8673f566cedae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ground.mat using Guid(092f7656b6478524c9e8673f566cedae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c37037cafbd7aa7624bab4e9985e06') in 0.071125 seconds
+  Import took 0.080349 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.725138 seconds.
-  path: Assets/Glass Light.005.mat
-  artifactKey: Guid(cfc3bcc18e9e182428b337d65c11b331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass Light.005.mat using Guid(cfc3bcc18e9e182428b337d65c11b331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7de1b07fa1f31c6d7a7228a2398080') in 0.038326 seconds
-  Import took 0.042096 seconds .
+  Time since last request: 31.979306 seconds.
+  path: Assets/Models/Ground.mat
+  artifactKey: Guid(092f7656b6478524c9e8673f566cedae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ground.mat using Guid(092f7656b6478524c9e8673f566cedae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6fa5f23783467cf17d77c5410f5fd6') in 0.051464 seconds
+  Import took 0.056526 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.731277 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6374019befeac6ce670f13ba9960efb') in 0.025360 seconds
-  Import took 0.029682 seconds .
+  Time since last request: 0.000928 seconds.
+  path: Assets/Models/Wall.mat
+  artifactKey: Guid(c8a2de7be6f0fe14d975d8f784a54955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wall.mat using Guid(c8a2de7be6f0fe14d975d8f784a54955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4eb9769a92b9a1a1290b0b0b656e4b') in 0.049817 seconds
+  Import took 0.057145 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.366403 seconds.
-  path: Assets/dalekcam blender.mtl
-  artifactKey: Guid(4b9f6dea66c82b240a35b99927064847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dalekcam blender.mtl using Guid(4b9f6dea66c82b240a35b99927064847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a295965e4320e5fa7e1c6b8476d48b') in 0.010264 seconds
-  Import took 0.014865 seconds .
+  Time since last request: 0.007100 seconds.
+  path: Assets/Models/Wall.mat
+  artifactKey: Guid(c8a2de7be6f0fe14d975d8f784a54955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wall.mat using Guid(c8a2de7be6f0fe14d975d8f784a54955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4eb9769a92b9a1a1290b0b0b656e4b') in 0.033814 seconds
+  Import took 0.040226 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.545484 seconds.
-  path: Assets/dalekcam blender.blend1
-  artifactKey: Guid(e5b6471caf84eb14cbe9e71a33e5de06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dalekcam blender.blend1 using Guid(e5b6471caf84eb14cbe9e71a33e5de06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719284c0e616a297ed7d75c999541b0e') in 0.010616 seconds
-  Import took 0.014626 seconds .
+  Time since last request: 20.714095 seconds.
+  path: Assets/Models/Ground.mat
+  artifactKey: Guid(092f7656b6478524c9e8673f566cedae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ground.mat using Guid(092f7656b6478524c9e8673f566cedae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86af0bc5519fe555578a4aa523cd879d') in 0.035915 seconds
+  Import took 0.044178 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 10.679095 seconds.
-  path: Assets/Models
-  artifactKey: Guid(d74f43a666ebcbb47af73e12ab48bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(d74f43a666ebcbb47af73e12ab48bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1937085b550189facfc91087eecb5f83') in 0.025857 seconds
-  Import took 0.034687 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.274 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.4 MB.
+System memory in use after: 60.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1598.
+Total: 5.979112 ms (FindLiveObjects: 0.957733 ms CreateObjectMapping: 0.128089 ms MarkObjects: 4.762756 ms  DeleteObjects: 0.122222 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 5.098719 seconds.
-  path: Assets/Models/Hal
-  artifactKey: Guid(d1bc0f5b9399b4c45a6303a4bd4bbaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal using Guid(d1bc0f5b9399b4c45a6303a4bd4bbaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5ad74b2a67a2a112de4ed8810615f7') in 0.028230 seconds
-  Import took 0.033798 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.121 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.4 MB.
+System memory in use after: 60.5 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 6.239094 seconds.
-  path: Assets/Models/Hal/Materials
-  artifactKey: Guid(3ef44ed702dea7f449f1d22f52e9a538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials using Guid(3ef44ed702dea7f449f1d22f52e9a538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6339904eab0bedf2b49e6fc8862f3f56') in 0.021587 seconds
-  Import took 0.045556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.475771 seconds.
-  path: Assets/Models/Hal/Materials/Texture
-  artifactKey: Guid(7ff91ffa58d12d54b91e67fb48926e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/Texture using Guid(7ff91ffa58d12d54b91e67fb48926e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e207aa200b0216a7733d164e77b2d8e4') in 0.029716 seconds
-  Import took 0.040288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.103225 seconds.
-  path: Assets/Models/Hal/dalekcam blender.blend
-  artifactKey: Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/dalekcam blender.blend using Guid(acb96413eca06794f8687fc9a5d4d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdc92baa5a3bf448a1eb90e849e4527') in 0.188615 seconds
-  Import took 0.193278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Models/Hal/Head.003.mat
-  artifactKey: Guid(e34439cc354686544a91ac80cff8a141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Head.003.mat using Guid(e34439cc354686544a91ac80cff8a141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d89c775da7be61bf76f85985ba551e') in 0.025422 seconds
-  Import took 0.028299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Models/Hal/Skirt.003.mat
-  artifactKey: Guid(97bdc210a7f68524d8fcac0ea5764f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Skirt.003.mat using Guid(97bdc210a7f68524d8fcac0ea5764f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db05cf3a5380290871c57e296efdefe6') in 0.027230 seconds
-  Import took 0.031364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Models/Hal/Sphere.001.mat
-  artifactKey: Guid(f71b655aaf459f94eaade0bc522cd683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Sphere.001.mat using Guid(f71b655aaf459f94eaade0bc522cd683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a4161f9342af29960422ed43577f3a') in 0.026175 seconds
-  Import took 0.029595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Models/Hal/Sphere Base.014.mat
-  artifactKey: Guid(dc2a825383a10894f92d8fecb3f10ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Sphere Base.014.mat using Guid(dc2a825383a10894f92d8fecb3f10ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7269ade9ccff6c819468556d5b613b98') in 0.025985 seconds
-  Import took 0.030035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/Models/Hal/Neck Mesh.001.mat
-  artifactKey: Guid(c6bace1d03c97814b91045cb8c1c2849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Neck Mesh.001.mat using Guid(c6bace1d03c97814b91045cb8c1c2849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eef24ebc00608d2b4b001df0df0de5e') in 0.028811 seconds
-  Import took 0.033061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000566 seconds.
-  path: Assets/Models/Hal/Bolts.006.mat
-  artifactKey: Guid(146bd61f18d0436499370d22f25ff0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Bolts.006.mat using Guid(146bd61f18d0436499370d22f25ff0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbaf108e96484c6dbc275a236469a8b') in 0.027986 seconds
-  Import took 0.032792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/Models/Hal/Sphere Base.001.mat
-  artifactKey: Guid(9857379d5c6121745bd8ed3f27261224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Sphere Base.001.mat using Guid(9857379d5c6121745bd8ed3f27261224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e8c2052c3c53bd7a4e5fd032700468') in 0.024316 seconds
-  Import took 0.028270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000488 seconds.
-  path: Assets/Models/Hal/Eye Rings.004.mat
-  artifactKey: Guid(81c768684e5f46c45a7145cfd69f8dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Eye Rings.004.mat using Guid(81c768684e5f46c45a7145cfd69f8dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc397a404b9aec643af3891522649b11') in 0.028540 seconds
-  Import took 0.032301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Models/Hal/Material.041.mat
-  artifactKey: Guid(da025af2e5b6dc54a9832a8fe56fc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Material.041.mat using Guid(da025af2e5b6dc54a9832a8fe56fc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3aa990e9cac7690ee39495de10ade4') in 0.026508 seconds
-  Import took 0.030084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Models/Hal/stalk.003.mat
-  artifactKey: Guid(5a291bbc7c8ca514e8497fd3c01060e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/stalk.003.mat using Guid(5a291bbc7c8ca514e8497fd3c01060e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcf8bcabdb040750be2fb582feee38b') in 0.026547 seconds
-  Import took 0.030168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Models/Hal/Fender.001.mat
-  artifactKey: Guid(405f9d30ced09334d96012b2bcba348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Fender.001.mat using Guid(405f9d30ced09334d96012b2bcba348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664e35c2235886a06fa802ac137a9e62') in 0.027720 seconds
-  Import took 0.030915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Models/Hal/Base Blue.003.mat
-  artifactKey: Guid(4aca785a6e1faa0478778b19ef41685b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Base Blue.003.mat using Guid(4aca785a6e1faa0478778b19ef41685b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25abedcae2ea6b9913889bc3601687c') in 0.030709 seconds
-  Import took 0.034755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/Models/Hal/ID Plate.004.mat
-  artifactKey: Guid(563d9480ba1ad4747a624b730dfa31ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/ID Plate.004.mat using Guid(563d9480ba1ad4747a624b730dfa31ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed6ee49c3eb582be0b37429ce90960c') in 0.202714 seconds
-  Import took 0.205967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Models/Hal/Belt.003.mat
-  artifactKey: Guid(f01bf08c563944440bc2b87215f7c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Belt.003.mat using Guid(f01bf08c563944440bc2b87215f7c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfd531ff8895142b83b182dae8231b6') in 0.027750 seconds
-  Import took 0.031734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Models/Hal/Arm Bases.001.mat
-  artifactKey: Guid(cd8128edd381c5d41af9272b13d0d88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Arm Bases.001.mat using Guid(cd8128edd381c5d41af9272b13d0d88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd237979c4dda764db3907050c5c78e7') in 0.034233 seconds
-  Import took 0.037650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Models/Hal/Buttons.005.mat
-  artifactKey: Guid(91cb8b6ce82868348943fa9732c2bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Buttons.005.mat using Guid(91cb8b6ce82868348943fa9732c2bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff380927b811bddf66c7c2cd2add687') in 0.027291 seconds
-  Import took 0.030776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Models/Hal/Shoulders.007.mat
-  artifactKey: Guid(07f879b34b6b881469102417b91eb468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Shoulders.007.mat using Guid(07f879b34b6b881469102417b91eb468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d88910d75433bdfdae5d1fc6d3bc89d') in 0.039311 seconds
-  Import took 0.042854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Models/Hal/Neck Supports.003.mat
-  artifactKey: Guid(35182cdcfb86c8248929e7a74b7fd53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Neck Supports.003.mat using Guid(35182cdcfb86c8248929e7a74b7fd53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e19203726a02b055f78ea88d4a7365') in 0.030302 seconds
-  Import took 0.034681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002475 seconds.
-  path: Assets/Models/Hal/Panels inside.001.mat
-  artifactKey: Guid(c822fa50a98c54c4299daa4052534eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Panels inside.001.mat using Guid(c822fa50a98c54c4299daa4052534eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25799bb1896460c69c8c22932c8dffaa') in 0.025440 seconds
-  Import took 0.031100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/Models/Hal/Panels & Rim.001.mat
-  artifactKey: Guid(2fd24dc4346ddc7488341f039c69a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Panels & Rim.001.mat using Guid(2fd24dc4346ddc7488341f039c69a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe9cb2656999f603d8bf6c6427eb190') in 0.024106 seconds
-  Import took 0.027992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Models/Hal/Sphere Base.004.mat
-  artifactKey: Guid(cf75ebe0097358a4e9e1cbf9867860bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Sphere Base.004.mat using Guid(cf75ebe0097358a4e9e1cbf9867860bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df62317d5e7da70853af0d3fcdb77faa') in 0.026848 seconds
-  Import took 0.030701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009210 seconds.
-  path: Assets/Models/Hal/Sphere Base.004.mat
-  artifactKey: Guid(cf75ebe0097358a4e9e1cbf9867860bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Sphere Base.004.mat using Guid(cf75ebe0097358a4e9e1cbf9867860bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df62317d5e7da70853af0d3fcdb77faa') in 0.018277 seconds
-  Import took 0.022495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 105.547417 seconds.
-  path: Assets/Models/Hal/Materials/Texture/Materials
-  artifactKey: Guid(a657ff3faef94cf459870173cc4b7aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/Texture/Materials using Guid(a657ff3faef94cf459870173cc4b7aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30386615401144932ae92a09bcce36a1') in 0.009859 seconds
-  Import took 0.014394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.146592 seconds.
-  path: Assets/Models/Hal/Materials/Texture/Materials/Hal ID Tag4.mat
-  artifactKey: Guid(d319b1708ac5cf7408bc35d5c9e5a5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/Texture/Materials/Hal ID Tag4.mat using Guid(d319b1708ac5cf7408bc35d5c9e5a5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c8f95fe0449e3d41d4786fed5f290e') in 0.038501 seconds
-  Import took 0.041907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 690.284908 seconds.
-  path: Assets/Models/Hal/Materials/Arm Bases.001.mat
-  artifactKey: Guid(cd8128edd381c5d41af9272b13d0d88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/Arm Bases.001.mat using Guid(cd8128edd381c5d41af9272b13d0d88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf4b40e1b3c93c894464b58b81151fb') in 0.034681 seconds
-  Import took 0.040004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000512 seconds.
-  path: Assets/Models/Hal/Materials/Head.003.mat
-  artifactKey: Guid(e34439cc354686544a91ac80cff8a141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/Head.003.mat using Guid(e34439cc354686544a91ac80cff8a141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0514a4cc8e1e62dec9ea61fa08690aa4') in 0.033726 seconds
-  Import took 0.040002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Models/Hal/Materials/Bolts.006.mat
-  artifactKey: Guid(146bd61f18d0436499370d22f25ff0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/Bolts.006.mat using Guid(146bd61f18d0436499370d22f25ff0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c1007ac219a7f44c3165dc87617462') in 0.034192 seconds
-  Import took 0.037290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000488 seconds.
-  path: Assets/Models/Hal/Materials/stalk.003.mat
-  artifactKey: Guid(5a291bbc7c8ca514e8497fd3c01060e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/stalk.003.mat using Guid(5a291bbc7c8ca514e8497fd3c01060e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69bbe1f03bd4d9926ec4e03fe30df759') in 0.038316 seconds
-  Import took 0.043737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Models/Hal/Materials/Fender.001.mat
-  artifactKey: Guid(405f9d30ced09334d96012b2bcba348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/Fender.001.mat using Guid(405f9d30ced09334d96012b2bcba348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6114890a75a9f546dfc02e68102f72a2') in 0.029482 seconds
-  Import took 0.033720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000775 seconds.
-  path: Assets/Models/Hal/Materials/ID Plate.004.mat
-  artifactKey: Guid(563d9480ba1ad4747a624b730dfa31ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/ID Plate.004.mat using Guid(563d9480ba1ad4747a624b730dfa31ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51ff82b89da08e44c5cde98edd052e8') in 0.046406 seconds
-  Import took 0.050231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Models/Hal/Materials/Arm Bases.001.mat
-  artifactKey: Guid(cd8128edd381c5d41af9272b13d0d88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/Arm Bases.001.mat using Guid(cd8128edd381c5d41af9272b13d0d88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf4b40e1b3c93c894464b58b81151fb') in 0.017901 seconds
-  Import took 0.021373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000504 seconds.
-  path: Assets/Models/Hal/Materials/Shoulders.007.mat
-  artifactKey: Guid(07f879b34b6b881469102417b91eb468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/Shoulders.007.mat using Guid(07f879b34b6b881469102417b91eb468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19b0b6e464a4a847dbfec0037280d0f') in 0.029842 seconds
-  Import took 0.033536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Models/Hal/Materials/Panels & Rim.001.mat
-  artifactKey: Guid(2fd24dc4346ddc7488341f039c69a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/Panels & Rim.001.mat using Guid(2fd24dc4346ddc7488341f039c69a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4746d5ee5ff4033909286687af168a64') in 0.026797 seconds
-  Import took 0.030562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Models/Hal/Materials/Sphere Base.004.mat
-  artifactKey: Guid(cf75ebe0097358a4e9e1cbf9867860bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Hal/Materials/Sphere Base.004.mat using Guid(cf75ebe0097358a4e9e1cbf9867860bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b3d8658d998628434e14fde90c03c5') in 0.032669 seconds
-  Import took 0.036292 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1601.
+Total: 14.299024 ms (FindLiveObjects: 3.046756 ms CreateObjectMapping: 0.724533 ms MarkObjects: 10.333157 ms  DeleteObjects: 0.186267 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
